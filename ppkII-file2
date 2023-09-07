@@ -23,8 +23,16 @@ img {
   width:70px;
 }
 <ul>
-  <li>HTML</li>
+  <li>class="selected"> HTML</li>
   <li>PHP</li>
   <li>Ruby</li>
 </ul>
-
+ii {
+ list-style: none;
+ float: left;
+ padding: gatau brp tadi px dan.. px
+}
+header-logo {
+ float: left;
+ front-size: 36px;
+}
