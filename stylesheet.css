@@ -1,3 +1,10 @@
+<!DocType html>
+<html>
+<head>
+<title>HELLO world</title>
+</head>
+<body>
+
 <h1>Hello World</h1>
 h1 {
   color: red;
@@ -36,3 +43,6 @@ header-logo {
  float: left;
  front-size: 36px;
 }
+
+</body>
+</html>
