@@ -1,10 +1,3 @@
-<!DocType html>
-<html>
-<head>
-<title>HELLO WORLD</title>
-</head>
-<body>
-
 <h1>Hello World</h1>
 h1 {
   color: red;
@@ -13,8 +6,6 @@ h1 {
   height:80px;
   width:200px;
 }
-<marquee>Selamat Datang di Website Progate</marquee>
-<h2>Mari Belajar Tentang HTML</h2>
 <p>HTML=Hyper Text Markup Language</p>
 p {
   color : #0000ff#;
@@ -29,11 +20,6 @@ img {
   height:50px;
   width:70px;
 }
-<ul>
-  <li>class="selected"> HTML</li>
-  <li>PHP</li>
-  <li>Ruby</li>
-</ul>
 ii {
  list-style: none;
  float: left;
@@ -43,6 +29,3 @@ header-logo {
  float: left;
  front-size: 36px;
 }
-
-</body>
-</html>
