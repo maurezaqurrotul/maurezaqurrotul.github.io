@@ -1,7 +1,7 @@
 h1 {
   color: red;
   font-size: 30px;
-  background-color: #f3f372;
+  background-color: #ddd;
   height:80px;
   width:200px;
 }
@@ -16,12 +16,15 @@ img {
   height:50px;
   width:70px;
 }
-ii {
+ll {
  list-style: none;
  float: left;
- padding: gatau brp tadi px dan.. px
+ padding:20px
 }
 header-logo {
  float: left;
  front-size: 36px;
+}
+selected{
+  color:red;
 }
