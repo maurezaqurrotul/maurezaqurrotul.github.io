@@ -1,14 +1,15 @@
 h1 {
   color:red;
   font-size:30px;
-  background-color: #ff0000;
+  background-color:#f3f372;
   height:80px;
   width:200px;
   font-family:serif;
 }
 p {
   color:green;
-  font-size:10px;
+  font-size:20px;
+  background-color:blue; 
   height:50px;
   width:100px;
 }
@@ -17,7 +18,7 @@ img {
   width:200px;
 }
 li {
- float: right;
+ float: left;
  padding:20px
 }
 header-logo {
