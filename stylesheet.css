@@ -24,6 +24,13 @@ header-logo {
  float: left;
  front-size: 10px;
 }
+h1 {
+  color:black;
+  font-size:50px;
+  background-color:blue;
+  height:80px;
+  width:200px;
+}
 .selected {
   color:red;
 }
