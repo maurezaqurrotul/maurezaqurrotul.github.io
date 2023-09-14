@@ -27,3 +27,18 @@ header-logo {
 .selected {
   color:red;
 }
+.footer {
+  color:#fff;
+  background-color:#2f5167;
+  height:120px;
+  padding:48px;
+}
+.footer-logo {
+  front-size:32px;
+  float:left;
+}
+.footer-list {
+  float:right;
+}
+.footer-list li {
+  pdding-bottom:20px
