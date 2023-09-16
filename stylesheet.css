@@ -25,11 +25,11 @@ header-logo {
  front-size: 10px;
 }
 h3 {
-  color:blue;
+  color:black;
   font-size:50px;
-  background-color:black;
-  height:80px;
-  width:200px;
+  background-color:blue;
+  height:50px;
+  width:100px;
 }
 .selected {
   color:red;
