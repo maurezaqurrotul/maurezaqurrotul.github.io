@@ -1,4 +1,4 @@
-goh1 {
+h1 {
   color:red;
   font-size:30px;
   background-color:#f3f372;
@@ -102,4 +102,18 @@ h3 {
 .main h1 {
 }
 .main p {
+}
+.btn {
+}
+.btn-hover {
+}
+.fa {
+.btn-wrapper {
+.signup {
+.facebook {
+  background-color:#3b5998;
+  margin-right:18px;
+}
+.twitter {
+  background-color: #55acee;
 }
