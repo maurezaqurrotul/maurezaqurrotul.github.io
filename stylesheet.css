@@ -1,4 +1,4 @@
-h1 {
+goh1 {
   color:red;
   font-size:30px;
   background-color:#f3f372;
@@ -87,4 +87,19 @@ h3 {
    background-color:#ddd
    height:270px
 }
-
+.container {
+   width:1170px;
+   padding-left:15px;
+   padding-right:15px;
+   margin-left:auto;
+   margin-right:auto;
+}
+.main {
+   padding:15px;?????????
+   padding-right:15px;
+   margin-left:auto;
+   margin-right:auto;
+.main h1 {
+}
+.main p {
+}
