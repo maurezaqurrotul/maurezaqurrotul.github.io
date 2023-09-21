@@ -66,42 +66,50 @@ h3 {
   border-bottom:2px solid #dee7ec; 
 }
 .contents {
-   height:500px;
-   margin-top:100px;
+  height:500px;
+  margin-top:100px;
 }
 .section-title {
-   border-bottom:2px solid #dee7ec;
-   font-size:28px;
-   padding-bottom:15px;
-   margin-bottom:50px;
+  border-bottom:2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
 }
 .contents-item {
-   float:left;
-   margin-right:40px
+  float:left;
+  margin-right:40px
 }
 .contents-item p {
-   font-size:24;
-   margin-top:30px
+  font-size:24;
+  margin-top:30px
 }
 .footer {
-   background-color:#ddd
-   height:270px
+  background-color:#ddd
+  height:270px
 }
 .container {
-   width:1170px;
-   padding-left:15px;
-   padding-right:15px;
-   margin-left:auto;
-   margin-right:auto;
+  width:1170px;
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto;
 }
 .main {
-   padding:15px;?????????
-   padding-right:15px;
-   margin-left:auto;
-   margin-right:auto;
+  padding:180px 0 100px 0;
+  background-image:ur1("");
+  background-size:cover;
+  color:white;
+  tetx-align:center;
+}
 .main h1 {
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom:10px;
 }
 .main p {
+  opacity:0.7;
+  margin-bottom:3px;
 }
 .btn {
 }
