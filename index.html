@@ -1,67 +1,77 @@
-<link rel="stylesheet"href="stylesheet.css">
-<h1>Hello World</h1>
-<marquee>Selamat Datang di Website Progate</marquee>
-<h2>Mari Belajar Tentang HTML</h2>
-<p>HTML=Hyper Text Markup Language</p>
-<a href="http://matematika.uin-malang.ac.id/">Website Prodi Matematika</a>
-<img src="https://img2.pngdownload.id/20191011/pjp/transparent-natural-landscape-rural-area-landscape-farm-animat-5da6505091c0f5.070650691571180624597.jpg">
-<ul>
-  <li class="selected">HTML</li>
-  <li class="selected">PHP</li>
-  <li>Ruby</li>
-</ul>
-<div>
-  <div class="footer">
-    <div class="footer-logo">
-      Progate</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <h1>Hello World</h1>
+  <marquee>Selamat Datang di Website Progate</marquee>
+  <h2>Mari Belajar Tentang HTML</h2>
+  <p>HTML=Hyper Text Markup Language</p>
+  <a href="http://matematika.uin-malang.ac.id/">Website Prodi Matematika</a>
+  <img src="https://img2.pngdownload.id/20191011/pjp/transparent-natural-landscape-rural-area-landscape-farm-animat-5da6505091c0f5.070650691571180624597.jpg">
+  <ul>
+    <li class="selected">HTML</li>
+    <li class="selected">PHP</li>
+    <li>Ruby</li>
+  </ul>
+<div class="footer">
+  <div class="footer-logo">
+    Progate</div>
     <div class="footer-list">
       <ul>
         <li>Tentang</li>
         <li>Karier</li>
         <li>Hubungi Kami</li>
-    <ul>
+      <ul>
     </div>
-</div>
+  </div>
 <div>
-  <div class="main">
-    <div class="copy-container">
-      <h1>HELLO WORLD<span>.</span></h1>
-      <h2>Ayo belajar coding</h2>
+<div class="main">
+  <div class="copy-container">
+    <h1>HELLO WORLD<span>.</span></h1>
+    <h2>Ayo belajar coding</h2>
+  </div>
 </div>
-<div class="contents-item">
-  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-  <p>HTML & CSS</p>
+<div class="contents">
+  <h3 class="section-title">Pelajaran</h3>
+  <div class="contents-item">
+    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+    <p>HTML & CSS</p>
+  </div>
+  <div class="contents-item">
+    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+    <p>PHP</p>
+  </div>
+  <div class="contents-item">
+    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+    <p>Ruby</p>
+  </div>
+  <div class="contents-item">
+    <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+    <p>Swif</p>
+  </div>
 </div>
-<div class="contents-item">
-  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-  <p>PHP</p>
-</div>
-<div class="contents-item">
-  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-  <p>Ruby</p>
-</div>
-<div class="contents-item">
-  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-  <p>Swif</p>
-</div>
----<br><br><br><br><br>---
-<div class="contents-form">
+
+<div class="contact-form">
   <h3 class="selection-title">Hubungi kami</h3>
   <p>Email (Wajib Diisi)</p>
   <input>
   <p>Pesan (Wajib Diisi)</p>
   <textarea></textarea>
-  <p>"Bidang Wajib Diisi</p>
-  <input class="contact-submit" values="kirim">
+  <p>*Bidang Wajib Diisi</p>
+  <input class="contact-submit" type="submit" value="kirim">
 </div>
----<br><br><br><br><br>---
-<form>
+
+<form action="/action_page.php">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <input type="text" id="fname" name="Maureza"><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <input type="submit" id="lname" value="Submit">
 </form>
----<br><br><br><br><br>---
 <p>Choose your favorite Web language:</p>
 <form>
   <input type="radio" id="html" name="fav_language" value="HTML">
@@ -71,17 +81,26 @@
   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
   <label for="javascript">JavaScript</label>
 </form>
----<br><br><br><br><br>---
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Money">
+    <label for="vehicle1"> I have a money </label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Bike">
+    <label for="vehicle3"> I have a bike</label>
+</form>
+
 <div class="main">
   <div class="container">
-    <h1>BELAJAR CODDING. </h1>
-    <h1>BELAJAR MENJADI LEBIH KREATIF </h1>
+    <h1>BELAJAR CODDING.</h1>
+    <h1>BELAJAR MENJADI LEBIH KREATIF</h1>
     <p>Progate adalah platform online</p>
     <p>Kami menawarkan lingkungan</p>
+  </div>
   <div class="btn wrapper">
-    <a href="#" class="btn signup">
+    <a href="#" class="btn signup">daftar</a>
     <p>atau</p>
-    <a href="a" class="btn Facebook">
+    <a href="#" class="btn Facebook">
       <span class="fa fa-facebook">
       </span>Daftar dengan Facebook
     </a>
