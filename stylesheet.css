@@ -6,22 +6,23 @@ h1 {
   font-family:serif;
 }
 p {
-  color:green;
+  color:blue;
   font-size:20px;
   height:50px;
-  width:100px;
+  width:80px;
 }
 img {
   height:120px;
   width:180px;
 }
 li {
- float: left;
+ color:#444;
+ float:left;
  padding:20px
 }
 header-logo {
- float: left;
- front-size: 10px;
+ float:left;
+ front-size:25px;
 }
 h3 {
   color:black;
@@ -36,7 +37,7 @@ h3 {
   color:#fff;
   background-color:#2f5167;
   height:120px;
-  padding:48px;
+  padding:40px;
 }
 .footer-logo {
   front-size:32px;
@@ -46,22 +47,16 @@ h3 {
   float:right;
 }
 .footer-list li {
-  pdding-bottom:20px
+  padding-bottom:20px;
 }
 .main {
-  padding: 100px 80px;
+  padding:100px 80px;
 }
 .copy-container h2 {
-  font-size: 60 px;
+  font-size:100px;
 }
 .copy-container span {
-  color: #ff4a4a;
-}
-.contents {
-  height:500px
-}
-.selection-title {
-  border-bottom:2px solid #dee7ec; 
+  color:#ff4a4a;
 }
 .contents {
   height:500px;
@@ -79,11 +74,11 @@ h3 {
 }
 .contents-item p {
   font-size:24;
-  margin-top:30px
+  margin-top:30px;
 }
 .footer {
-  background-color:#ddd
-  height:270px
+  background-color:#dddddd
+  height:270px;
 }
 .container {
   width:1170px;
@@ -94,7 +89,7 @@ h3 {
 }
 .main {
   padding:180px 0 100px 0;
-  background-image:url("");
+  background-image:url("https://prog-8.com/images/html/advanced/top_en.png");
   background-size:cover;
   color:white;
   tetx-align:center;
@@ -105,21 +100,41 @@ h3 {
   letter-spacing:5px;
   margin-bottom:10px;
 }
-.main p {
-  opacity:0.7;
-  margin-bottom:3px;
-}
-.btn {
-}
-.btn-hover {
-}
-.fa {
-.btn-wrapper {
-.signup {
-.facebook {
-  background-color:#3b5998;
-  margin-right:18px;
-}
-.twitter {
-  background-color: #55acee;
-}
+.main h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .main p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  .signup {
+    background-color: #239b76;
+  }
+  .facebook {
+    background-color: #3b5998;
+  }
+  .twitter {
+    background-color: #55acee;
+  }
