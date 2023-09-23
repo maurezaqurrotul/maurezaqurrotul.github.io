@@ -6,11 +6,11 @@ h1 {
   font-family:serif;
 }
 p {
-  color:blue;
+  color:black;
   font-size:20px;
   height:50px;
   width:80px;
-  float:right;
+  float:left;
 }
 img {
   height:120px;
@@ -29,7 +29,7 @@ h3 {
   color:black;
   font-size:50px;
   height:50px;
-  width:100px;
+  width:80px;
 }
 .selected {
   color:red;
@@ -75,10 +75,10 @@ h3 {
 }
 .contents-item p {
   font-size:24;
-  margin-right:30px;
+  margin-bottom:30px;
 }
 .footer {
-  background-color:#dddddd
+  background-color:#ddd
   height:270px;
 }
 .container {
@@ -89,7 +89,7 @@ h3 {
   margin-right:auto;
 }
 .main {
-  padding:180px 0 100px 0;
+  padding:100px 0 80px 0;
   background-image:url("https://prog-8.com/images/html/advanced/top_en.png");
   background-size:cover;
   color:white;
