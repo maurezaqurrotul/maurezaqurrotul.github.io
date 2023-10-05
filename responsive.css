@@ -3,4 +3,23 @@
     width: 50%;
     margin-bottom: 50px;
   }
+  footer {
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: black;
+  }
 }
